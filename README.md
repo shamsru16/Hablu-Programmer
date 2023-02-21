@@ -1,2 +1,1 @@
-# Hablu-Proggrmmar
-# Hablu Programmar
+# Hablu
