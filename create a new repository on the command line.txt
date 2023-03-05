@@ -23,28 +23,24 @@ changing "user.name" & "user.email" from "git bash" desktop app
 
 
 SHAAD SHAMS@DESKTOP-287EIV0 MINGW64 ~ (main)
-$ git config user.name
+git config user.name
 
 SHAAD SHAMS@DESKTOP-287EIV0 MINGW64 ~ (main)
-$ git config user.email
+git config user.email
 
 SHAAD SHAMS@DESKTOP-287EIV0 MINGW64 ~ (main)
-$ git config --global user,name "shamsru16"
-error: key does not contain a section: user,name
+git config --global user.name "shamsru16"
 
 SHAAD SHAMS@DESKTOP-287EIV0 MINGW64 ~ (main)
-$ git config --global user.name "shamsru16"
+git config --global user.email "shamsru16@gmail.com"
 
 SHAAD SHAMS@DESKTOP-287EIV0 MINGW64 ~ (main)
-$ git config --global user.email "shamsru16@gmail.com"
-
-SHAAD SHAMS@DESKTOP-287EIV0 MINGW64 ~ (main)
-$ git config user.name
+git config user.name
 shamsru16
 
 SHAAD SHAMS@DESKTOP-287EIV0 MINGW64 ~ (main)
-$ git config user.email
+git config user.email
 shamsru16@gmail.com
 
 SHAAD SHAMS@DESKTOP-287EIV0 MINGW64 ~ (main)
-$
+
