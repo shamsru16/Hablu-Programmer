@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hablu  html (19-) audio,form tag 01-02,  </title>
+</head>
+<body>
+    <br><br>
+    <!-- audio tag (https://www.w3schools.com/tags/tag_audio.asp) -->
+    <audio controls preload="auto" autoplay loop muted src="Aat Ta Baje Deri Korish Na - Basudeb Das Bau(audiosong.in).mp3"></audio>
+    <br><br>
+    <audio controls preload="metadata" autoplay loop muted src="Aat Ta Baje Deri Korish Na - Basudeb Das Bau(audiosong.in).mp3" type="audio/mp3">
+    </audio>
+    <br><br>
+    <audio controls preload="none" autoplay loop muted src="Aat Ta Baje Deri Korish Na - Basudeb Das Bau(audiosong.in).mp3" type="audio/mpeg"></audio>
+    <!-- audio tag (https://www.w3schools.com/tags/tag_audio.asp) -->
+    <br><br>
+    <!-- form tag 01-->
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Contact Us</legend>
+            First Name <br>
+        <input type="text" placeholder="First Name">
+        <br> Last Name <br>
+        <input type="text" placeholder="Last Name">
+        <br>
+        Gender:
+        <input type="radio" name="Gender"> Male
+        <input type="radio"name="Gender"> Female
+        <input type="radio"name="Gender"> Others
+        <br>
+        <input type="submit" value="Send">
+        </fieldset>
+    </form>
+    <!-- form tag 01-->
+    <br><br>
+    <!-- form tag 02-->
+    <h1>Choose your country</h1>
+    <select multiple size="2">
+        <option value="Bangladesh"> Bangladesh </option>
+        <option value="India"> India </option>
+        <option value="Pakisthan"> Pakisthan </option>
+        <option value="Canada" selected> Canada </option>
+    </select>
+    <br><br>
+    <h1>Enter you message</h1><br>
+    <textarea cols="30" rows="10" Placeholder="Enter your message..."></textarea>
+    <!-- Q. (placeholder not showing) Ans: (If you have an input in your form and placeholder is not showing because a white space at the beginning, this may be caused for you "value" attribute. In case you are using variables to fill the value of an input check that there are no white spaces between the commas and the variables.) -->
+    <!-- form tag 02-->
+</body>
+</html>
